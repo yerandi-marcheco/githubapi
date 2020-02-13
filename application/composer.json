@@ -1,0 +1,16 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "~6.0@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "DataProviders/",
+            "Services/",
+            "Store/",
+            "test/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
